@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class TaskU {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+
+        int result = 1 + (n % m) * (m % n);
+
+        System.out.println(result);
+    }
+}
